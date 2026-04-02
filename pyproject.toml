@@ -1,0 +1,11 @@
+[tool.forma]
+name = "directus"
+description = "Directus CMS - schema, migrations, users, extensions"
+command = "directus"
+origin = "vendor"
+status = "stable"
+auth = "api_key"
+resources = ["schema", "migrations", "users", "extensions"]
+install = "npm install directus"
+update = "npm update directus"
+repo = "https://github.com/directus/directus"
